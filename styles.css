@@ -198,7 +198,16 @@ h3 { margin-bottom: 10px; font-size: 1.25rem; line-height: 1.35; }
   box-shadow: 0 18px 28px rgba(0,0,0,.13);
   touch-action: none;
 }
-.hiring { left: 4%; top: 14%; background: var(--green); transform: rotate(-2deg); }
+.hiring {
+  left: 11.4%;
+  top: 12.2%;
+  min-width: 132px;
+  min-height: 104px;
+  padding: 20px 22px;
+  border: 2px solid var(--ink);
+  background: var(--green);
+  transform: rotate(-2deg);
+}
 .pin-icon {
   display: inline-block;
   margin-right: 4px;
@@ -207,32 +216,32 @@ h3 { margin-bottom: 10px; font-size: 1.25rem; line-height: 1.35; }
 }
 .wave { right: 9%; top: 66%; background: var(--yellow); transform: rotate(2deg); font-size: 2.2rem; }
 .green {
-  left: 54%;
-  bottom: 31%;
-  min-width: 178px;
-  min-height: 126px;
-  padding: 28px 30px;
+  left: 35%;
+  bottom: 28%;
+  min-width: 170px;
+  min-height: 118px;
+  padding: 26px 28px;
   background: var(--green);
   transform: rotate(-1deg);
   font-size: 1.08rem;
 }
 .degree-note {
-  left: 58%;
-  bottom: 6%;
-  min-width: 172px;
-  min-height: 112px;
-  padding: 25px 28px;
+  left: 40%;
+  bottom: 1%;
+  min-width: 168px;
+  min-height: 105px;
+  padding: 24px 28px;
   background: var(--paper);
   transform: rotate(2deg);
   border: 2px solid var(--ink);
   font-size: 1.04rem;
 }
-.yellow { left: 6%; bottom: 4%; background: var(--yellow); transform: rotate(2deg); border: 2px solid var(--ink); }
+.yellow { left: 8%; bottom: 5%; background: var(--yellow); transform: rotate(2deg); border: 2px solid var(--ink); }
 .contact-sticky { position: relative; inset: auto; background: var(--green); margin: 38px auto 0; display: block; }
 .drag-hint {
   position: absolute;
-  left: 7.5%;
-  top: 27%;
+  left: 4.6%;
+  top: 22.8%;
   z-index: 2;
   display: grid;
   gap: 2px;
@@ -320,9 +329,9 @@ h3 { margin-bottom: 10px; font-size: 1.25rem; line-height: 1.35; }
 }
 .arrow-doodle {
   position: absolute;
-  top: 24%;
-  left: -2%;
-  width: 220px;
+  top: 23%;
+  left: -4%;
+  width: 230px;
   fill: none;
   stroke: var(--ink);
   stroke-width: 4;
@@ -630,16 +639,16 @@ body.dark .project-visual { background: #2a2c31; }
   }
 
   .hiring {
-    left: 22px;
+    left: 26px;
     top: 23%;
-    transform: rotate(-3deg) scale(.76);
+    transform: rotate(-3deg) scale(.72);
   }
 
   .wave {
-    right: 22px;
-    top: 23%;
-    bottom: auto;
-    transform: rotate(3deg) scale(.76);
+    right: 30px;
+    top: auto;
+    bottom: 22%;
+    transform: rotate(3deg) scale(.72);
     font-size: 1.35rem;
   }
 
@@ -648,7 +657,7 @@ body.dark .project-visual { background: #2a2c31; }
   }
 
   .profile-side {
-    min-height: 720px;
+    min-height: 790px;
     margin-bottom: 18px;
   }
 
@@ -676,37 +685,36 @@ body.dark .project-visual { background: #2a2c31; }
 
   .green {
     left: auto;
-    right: 10px;
-    top: 318px;
+    right: 18px;
+    top: 382px;
     bottom: auto;
-    min-width: 142px;
-    min-height: 92px;
+    min-width: 146px;
+    min-height: 88px;
     padding: 18px 20px;
-    transform: rotate(-1deg) scale(.82);
+    transform: rotate(-1deg) scale(.8);
     font-size: .88rem;
   }
 
   .degree-note {
     left: auto;
-    right: auto;
-    top: 560px;
+    right: 36px;
+    top: 640px;
     bottom: auto;
-    left: 50%;
     min-width: 150px;
     min-height: 84px;
     padding: 17px 20px;
-    transform: translateX(-50%) rotate(2deg) scale(.82);
+    transform: rotate(2deg) scale(.78);
     font-size: .86rem;
   }
 
   .yellow.language-note {
-    left: 50%;
-    top: 438px;
+    left: 18px;
+    top: 500px;
     bottom: auto;
     min-width: 220px;
     min-height: 104px;
     padding: 18px 16px;
-    transform: translateX(-50%) rotate(-1deg) scale(.82);
+    transform: rotate(-1deg) scale(.82);
   }
 
   .language-row {
@@ -870,40 +878,42 @@ body.dark .project-visual { background: #2a2c31; }
   }
 
   .hiring {
-    left: 10px;
-    top: 22%;
-    transform: rotate(-3deg) scale(.68);
+    left: 16px;
+    top: 23%;
+    transform: rotate(-3deg) scale(.65);
   }
 
   .wave {
-    right: 12px;
-    top: 22%;
-    bottom: auto;
-    transform: rotate(3deg) scale(.68);
+    right: 16px;
+    top: auto;
+    bottom: 22%;
+    transform: rotate(3deg) scale(.65);
   }
 
   .profile-side {
-    min-height: 730px;
+    min-height: 800px;
   }
 
   .green {
-    right: -2px;
-    top: 318px;
+    right: 4px;
+    top: 382px;
     bottom: auto;
-    transform: rotate(-1deg) scale(.76);
+    transform: rotate(-1deg) scale(.74);
   }
 
   .degree-note {
-    left: 50%;
-    top: 574px;
+    left: auto;
+    right: 18px;
+    top: 642px;
     bottom: auto;
-    transform: translateX(-50%) rotate(2deg) scale(.76);
+    transform: rotate(2deg) scale(.74);
   }
 
   .yellow.language-note {
-    top: 444px;
+    left: 0;
+    top: 502px;
     min-width: 214px;
-    transform: translateX(-50%) rotate(-1deg) scale(.76);
+    transform: rotate(-1deg) scale(.76);
   }
 }
 @media (prefers-reduced-motion: reduce) {
