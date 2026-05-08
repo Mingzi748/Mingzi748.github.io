@@ -517,6 +517,357 @@ body.dark .project-visual { background: #2a2c31; }
   .dock a, .dock button { width: 42px; height: 42px; }
   .link-row { justify-content: center; }
 }
+@media (max-width: 520px) {
+  body::before {
+    background-size: 20px 20px;
+    opacity: .34;
+  }
+
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .brand {
+    max-width: 150px;
+    font-size: .92rem;
+  }
+
+  .brand span {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 auto;
+  }
+
+  .theme-toggle {
+    width: 96px;
+    height: 38px;
+  }
+
+  .toggle-option svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .page-section {
+    min-height: auto;
+    padding: 86px 18px 104px;
+  }
+
+  .hero {
+    min-height: 100svh;
+    display: grid;
+    align-content: center;
+    padding-top: 96px;
+  }
+
+  .hero-center {
+    transform: none;
+    padding: 0 2px;
+  }
+
+  .hero .eyebrow {
+    font-size: .68rem;
+    letter-spacing: .1em;
+    line-height: 1.45;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: clamp(3.15rem, 17vw, 4.7rem);
+    line-height: .96;
+    margin-bottom: 14px;
+  }
+
+  h2 {
+    font-size: clamp(2.1rem, 11vw, 3.4rem);
+  }
+
+  h3 {
+    font-size: 1.08rem;
+  }
+
+  .type-line {
+    min-height: 76px;
+    max-width: 320px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .sticky {
+    min-width: 112px;
+    min-height: 86px;
+    padding: 16px 18px;
+    font-size: .92rem;
+  }
+
+  .hiring,
+  .wave {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    margin: 0;
+  }
+
+  .hiring {
+    left: 18px;
+    top: 112px;
+    transform: rotate(-3deg) scale(.92);
+  }
+
+  .wave {
+    right: 20px;
+    bottom: 92px;
+    top: auto;
+    transform: rotate(3deg) scale(.88);
+    font-size: 1.65rem;
+  }
+
+  .about {
+    display: block;
+  }
+
+  .profile-side {
+    min-height: 650px;
+    margin-bottom: 18px;
+  }
+
+  .avatar-card {
+    top: 6px;
+    left: 50%;
+    width: 220px;
+    transform: translateX(-50%) rotate(-1deg);
+  }
+
+  .avatar-card img {
+    width: 196px;
+    height: 260px;
+    margin: 0 auto;
+  }
+
+  .avatar-card figcaption {
+    margin-left: 56px;
+    font-size: 1.28rem;
+  }
+
+  .arrow-doodle {
+    top: 300px;
+    left: 12px;
+    width: 150px;
+  }
+
+  .green {
+    left: auto;
+    right: 6px;
+    bottom: 214px;
+    transform: rotate(-1deg) scale(.88);
+  }
+
+  .degree-note {
+    left: 12px;
+    right: auto;
+    bottom: 122px;
+    transform: rotate(2deg) scale(.86);
+  }
+
+  .yellow.language-note {
+    left: 50%;
+    bottom: 0;
+    min-width: 226px;
+    min-height: 112px;
+    transform: translateX(-50%) rotate(-1deg) scale(.9);
+  }
+
+  .language-row {
+    grid-template-columns: 78px 1fr;
+  }
+
+  .link-row {
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  .round-link {
+    width: 46px;
+    height: 46px;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .section-title.lower {
+    margin-top: 48px;
+  }
+
+  .skill-pills {
+    justify-content: center;
+    gap: 11px 10px;
+  }
+
+  .skill-pills button {
+    min-height: 42px;
+    padding: 0 14px;
+    font-size: .92rem;
+  }
+
+  .lead-text {
+    font-size: .98rem;
+    text-align: left;
+  }
+
+  .center-title {
+    margin-bottom: 34px;
+  }
+
+  .experience-list {
+    gap: 18px;
+  }
+
+  .experience-card {
+    padding: 20px 18px;
+    border-width: 2px;
+  }
+
+  .experience-card p {
+    font-size: .95rem;
+  }
+
+  .mini-actions a,
+  .mini-actions span {
+    min-height: 38px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .project-heading {
+    gap: 14px;
+  }
+
+  .project-heading span {
+    width: 46px;
+  }
+
+  .project-list {
+    gap: 34px;
+  }
+
+  .project-card {
+    min-height: auto;
+    padding: 16px;
+    gap: 18px;
+    border-width: 2px;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px) rotate(-.3deg);
+  }
+
+  .project-visual {
+    min-height: 158px;
+  }
+
+  .project-visual img {
+    width: 58%;
+    max-width: 150px;
+  }
+
+  .project-visual span {
+    left: 12px;
+    bottom: 10px;
+  }
+
+  .final-note {
+    min-height: 70svh;
+  }
+
+  .contact-sticky {
+    min-width: 132px;
+    min-height: 96px;
+  }
+
+  .dock {
+    width: min(calc(100vw - 22px), 344px);
+    justify-content: space-between;
+    bottom: max(10px, env(safe-area-inset-bottom));
+    gap: 0;
+    padding: 8px;
+    border-radius: 24px;
+  }
+
+  .dock a,
+  .dock button {
+    width: 42px;
+    height: 42px;
+    border-right: 0;
+    border-radius: 15px;
+    font-size: 1.14rem;
+  }
+
+  .modal-panel {
+    width: min(92vw, 380px);
+    padding: 28px 20px 22px;
+    transform: translate(-50%, -50%) rotate(-.5deg);
+  }
+
+  .contact-menu a,
+  .contact-menu button {
+    grid-template-columns: 72px minmax(0, 1fr);
+    padding: 12px;
+  }
+
+  .contact-menu strong {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand {
+    max-width: 118px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .type-line {
+    max-width: 286px;
+    font-size: .94rem;
+  }
+
+  .hiring {
+    left: 10px;
+    top: 104px;
+    transform: rotate(-3deg) scale(.82);
+  }
+
+  .wave {
+    right: 12px;
+    bottom: 86px;
+    transform: rotate(3deg) scale(.78);
+  }
+
+  .profile-side {
+    min-height: 690px;
+  }
+
+  .green {
+    right: -6px;
+    bottom: 238px;
+  }
+
+  .degree-note {
+    left: -2px;
+    bottom: 140px;
+  }
+
+  .yellow.language-note {
+    min-width: 214px;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
   .type-line::after { display: none; }
