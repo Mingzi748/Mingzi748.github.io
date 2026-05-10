@@ -236,6 +236,11 @@ h3 { margin-bottom: 10px; font-size: 1.25rem; line-height: 1.35; }
   border: 2px solid var(--ink);
   font-size: 1.04rem;
 }
+body.dark .degree-note {
+  background: #e8dec8;
+  color: #1f2024;
+  border-color: #f4f0e9;
+}
 .yellow { left: 8%; bottom: 5%; background: var(--yellow); transform: rotate(2deg); border: 2px solid var(--ink); }
 .contact-sticky { position: relative; inset: auto; background: var(--green); margin: 38px auto 0; display: block; }
 .drag-hint {
@@ -380,6 +385,13 @@ h3 { margin-bottom: 10px; font-size: 1.25rem; line-height: 1.35; }
   transform: translateY(-6px) rotate(-2deg);
   background: color-mix(in srgb, var(--blue), white 82%);
   box-shadow: 5px 6px 0 color-mix(in srgb, var(--ink), transparent 72%);
+}
+body.dark .skill-pills button:hover,
+body.dark .skill-pills button.active {
+  background: #dbe8ff;
+  color: #1f2024;
+  border-color: #f4f0e9;
+  box-shadow: 5px 6px 0 rgba(244, 240, 233, .32);
 }
 
 .center-title { text-align: center; margin-bottom: 52px; }
