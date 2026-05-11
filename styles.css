@@ -360,6 +360,15 @@ body.dark .degree-note {
   transition: transform .22s ease, border-radius .22s ease, color .22s ease;
 }
 .round-link:hover { transform: translateY(-5px) rotate(-4deg); border-radius: 50%; color: var(--blue); }
+.round-link svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .section-title.lower { margin-top: 64px; }
 .lead-text { color: var(--muted); font-size: 1.05rem; }
 
